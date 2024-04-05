@@ -19,10 +19,10 @@ export const StyledConverterParaRomano = styled.div`
     .content {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
       background-color: #414141;
       margin-top: 10rem;
-      padding-top: 40px;
-      padding-bottom: 40px;
       width: 40%;
       border: 1px solid black;
       border-radius: 4px;
@@ -50,10 +50,13 @@ export const StyledConverterParaRomano = styled.div`
           margin-right: 5px;
         }
       }
+      .title {
+        font-family: Arial, sans-serif;
+        color: white;
+        height: 20%;
+      }
       .value {
         width: 30%;
-        margin-left: 30px;
-        margin-right: 20px;
       }
     }
   }
